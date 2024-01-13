@@ -19,15 +19,12 @@
     border-color: transparent rgb(177, 16, 16) transparent transparent;
   }
 </style>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script>
-  $(document).ready(function () {
-    $('.userselect')[0].onchange = (e)=>{
-      console.log(e);
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementsByClassName('userselect')[0].onchange = (e) => {
       window.location.href = e.srcElement.value + '.html';
     }
   }
-                   );
 </script>
 
 <title>Sim's 2023 Trakt Reviewed</title>
