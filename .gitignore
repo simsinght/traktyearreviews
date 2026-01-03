@@ -1,0 +1,21 @@
+# Generated data
+*_stats.json
+*.html
+
+# Downloaded assets
+assets/
+letterboxd-*/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+
+# Screenshots and reference images
+*.png
+
+# Temporary files
+fix_*.py
